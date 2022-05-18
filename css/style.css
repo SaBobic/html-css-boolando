@@ -12,6 +12,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* main{
+    padding-top: 120px;
+} */
+
 /* Utilities */
 
 .container{
@@ -29,10 +33,6 @@ body{
 
 .ai-center{
     align-items: center;
-}
-
-.f-basis30{
-    flex-basis: 30%;
 }
 
 .bg-red{
@@ -93,3 +93,12 @@ nav a{
     display: block;
 }
 
+/* Main */
+
+article > img{
+    width: 100%;
+}
+
+.product-grid article:nth-child(3n+2){
+    margin: 0 10px;
+}
