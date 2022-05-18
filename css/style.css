@@ -27,6 +27,10 @@ main{
     display: flex;
 }
 
+.fw-wrap{
+    flex-wrap: wrap;
+}
+
 .jc-between{
     justify-content: space-between;
 }
@@ -99,10 +103,23 @@ nav a{
 
 /* Main */
 
+article{
+    width: calc(100% / 3 - 10px);
+    margin-bottom: 60px;
+}
+
 article > img{
     width: 100%;
 }
 
-.product-grid article:nth-child(3n+2){
-    margin: 0 10px;
+.article-info .article-name{
+    text-transform: uppercase;
+}
+
+.article-price .current-price{
+    color: #FF0000;
+}
+
+.article-price .old-price{
+    text-decoration: line-through;
 }
