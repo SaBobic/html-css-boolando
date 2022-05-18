@@ -143,3 +143,23 @@ article img{
 .article-img .price-reduction{
     margin-right: 5px;
 }
+
+.article-img .favorites-box{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.favorites-box .favorites-heart{
+    font-size: 40px;
+}
+
+.article-img .favorites-box:hover{
+    color: #FF0000;
+}
