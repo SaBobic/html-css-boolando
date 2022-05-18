@@ -1,0 +1,46 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+
+
+/* Utilities */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jc-between{
+    justify-content: space-between;
+}
+
+.f-basis30{
+    flex-basis: 30%;
+}
+
+.bg-red{
+    background-color: #FF0000;
+}
+
+.bg-orange{
+    background-color: #FF6900;
+}
+
+.bg-green{
+    background-color: #008000;
+}
+
+.c-black{
+    color: #000;
+}
