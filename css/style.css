@@ -19,7 +19,7 @@ main{
 /* Utilities */
 
 .container{
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -72,6 +72,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 nav > .logo{
@@ -108,7 +109,7 @@ article{
     margin-bottom: 60px;
 }
 
-article > img{
+article img{
     width: 100%;
 }
 
@@ -122,4 +123,23 @@ article > img{
 
 .article-price .old-price{
     text-decoration: line-through;
+}
+
+.article-img{
+    position: relative;
+}
+
+.article-img .label-row{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.article-img .label-box{
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.article-img .price-reduction{
+    margin-right: 5px;
 }
