@@ -163,3 +163,20 @@ article img{
 .article-img .favorites-box:hover{
     color: #FF0000;
 }
+
+.main-img{
+    position: relative;
+}
+
+.hover-img{
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.article-img:hover .hover-img{
+    display: block;
+}
