@@ -8,7 +8,9 @@
 
 /* Generics */
 
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Utilities */
 
@@ -23,6 +25,10 @@
 
 .jc-between{
     justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
 }
 
 .f-basis30{
@@ -44,3 +50,46 @@
 .c-black{
     color: #000;
 }
+
+.c-white{
+    color: #fff;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+/* Header */
+
+header{
+    height: 60px;
+    box-shadow: 0 1px 5px #888888;
+}
+
+nav > .logo{
+    text-align: center;
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.tools i{
+    margin-left: 5px;
+}
+
+nav > .tools{
+    text-align: right;
+}
+
+nav a{
+    text-decoration: none;
+
+}
+
+#logo{
+    height: 40px;
+    display: block;
+}
+
