@@ -75,8 +75,8 @@ header{
     z-index: 1;
 }
 
-nav > .logo{
-    text-align: center;
+nav > div{
+    width: 300px;
 }
 
 nav li{
@@ -99,6 +99,7 @@ nav a{
 #logo{
     height: 40px;
     display: block;
+    margin: 0 auto;
 }
 
 /* Main */
@@ -109,7 +110,7 @@ article{
 }
 
 article img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .article-info .article-name{
